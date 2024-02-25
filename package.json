@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "auth0-lock": "^12.4.0",
-    "nuxt": "^2.0.0"
+    "jwt-decode": "^4.0.0",
+    "nuxt": "^2.0.0",
+    "query-string": "7"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
