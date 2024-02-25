@@ -34,4 +34,9 @@ module.exports = {
     },
   },
   mode: "spa",
+  plugins: ["~/plugins/auth0.js"],
+  auth0: {
+    domain: "zaki-yama-nuxt-auth0.jp.auth0.com",
+    clientID: "kjxqGZWtKlu0nMJ0cXhFSVquOXONhgAY",
+  },
 };
