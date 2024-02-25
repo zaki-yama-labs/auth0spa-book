@@ -33,12 +33,25 @@ class Auth0Util {
     const localStorage = window.localStorage;
     localStorage.setItem("accessToken", access_token);
     localStorage.setItem("idToken", id_token);
-    localStorage.setItem("expiredAt", expires_in * 1000 + new Date().getTime());
+    localStorage.setItem("expiresAt", expires_in * 1000 + new Date().getTime());
     localStorage.setItem("user", JSON.stringify(jwtDecode(id_token)));
   }
 
   setTokenByQuery() {
     this.setToken(this.getQueryParams());
+  }
+
+  isAuthenticated() {
+    const expiresAt = window.localStorage.getItem("expiresAt");
+    return new Date().getTime() < expiresAt;
+  }
+
+  unsetToken() {
+    const localStorage = window.localStorage;
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("idToken");
+    localStorage.removeItem("expiresAt");
+    localStorage.removeItem("user");
   }
 }
 
