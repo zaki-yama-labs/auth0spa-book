@@ -49,4 +49,7 @@ module.exports = {
     domain: "zaki-yama-nuxt-auth0.jp.auth0.com",
     clientID: "kjxqGZWtKlu0nMJ0cXhFSVquOXONhgAY",
   },
+  generate: {
+    dir: "../public",
+  },
 };
