@@ -1,24 +1,3 @@
-# README
+# 「Auth0」で作る！認証付きシングルページアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://www.amazon.co.jp/%E3%80%8CAuth0%E3%80%8D%E3%81%A7%E4%BD%9C%E3%82%8B%EF%BC%81%E8%AA%8D%E8%A8%BC%E4%BB%98%E3%81%8D%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%EF%BC%88NextPublishing%EF%BC%89-%E5%9C%9F%E5%B1%8B-%E8%B2%B4%E8%A3%95-ebook/dp/B07GRPD4ND
